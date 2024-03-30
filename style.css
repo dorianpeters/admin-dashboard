@@ -25,10 +25,6 @@ html {
   grid-row: 1 / 3;
 }
 
-.main-content {
-  background-color: lightgrey;
-}
-
 .sd-box {
   height: 6%;
 }
@@ -36,18 +32,39 @@ html {
   font-size: 1em;
   font-weight: bold;
   color: white;
+  padding: 1% 0;
 }
 
+.sidebar :first-child {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
 .sidebar .sd-box img {
   object-fit: contain;
-  height: 20px;
-  width: 20px;
+  height: 1.1em;
+  width: 1.1em;
   fill: white;
+  padding: 0 1ch;
 }
-object {
-  width: 20px; /* Set the width as needed */
-  height: 20px; /* Set the height as needed */
-  fill: white; /* Change the color to white */
+
+.main-content {
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  gap: 10px;
+  grid-auto-flow: row;
+}
+
+.card {
+  background-color: white;
+  min-height: 100px;
+  border: 2px yellow dashed;
 }
 
 ul,
