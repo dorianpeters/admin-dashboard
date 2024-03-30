@@ -9,7 +9,7 @@ html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 20% 80%;
   grid-template-rows: 20% 80%;
 }
 
@@ -25,4 +25,9 @@ html {
 
 .main-content {
   background-color: lightgrey;
+}
+
+ul,
+li {
+  list-style: none;
 }
