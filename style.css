@@ -11,13 +11,28 @@ html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 13% 1fr;
   grid-template-rows: 20% 80%;
 }
 
 .header {
+  padding: 1% 2%;
   background-color: white;
   grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 50% 50%;
+}
+
+.header img {
+  height: 1.1em;
+}
+
+.header .search > input {
+  width: 80%;
+  background-color: lightgrey;
+  border-radius: 25px;
+  padding: 5px;
 }
 
 .sidebar {
@@ -26,17 +41,19 @@ html {
 }
 
 .sd-box {
+  display: flex;
   height: 6%;
+  width: 100%;
 }
 .sidebar .sd-box {
-  font-size: 1em;
+  font-size: 1.3vw;
   font-weight: bold;
   color: white;
   padding: 1% 0;
 }
 
 .sidebar :first-child {
-  font-size: 1.2em;
+  font-size: 1.4vw;
   font-weight: bold;
   color: white;
 }
