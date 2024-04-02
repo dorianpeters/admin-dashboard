@@ -32,11 +32,11 @@ html {
   width: 80%;
   background-color: lightgrey;
   border-radius: 25px;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 .sidebar {
-  background-color: skyblue;
+  background-color: #1d4ed8;
   grid-row: 1 / 3;
 }
 
