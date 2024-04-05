@@ -35,6 +35,23 @@ html {
   padding: 5px 10px;
 }
 
+.header .welcome {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 20px;
+}
+.header .welcome .left-img img {
+  height: 3em;
+}
+
+div.header div.welcome div.right-words div.hi {
+  font-weight: bold;
+}
+div.header div.welcome div.right-words div.user-name {
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+
 .sidebar {
   background-color: #1d4ed8;
   grid-row: 1 / 3;
