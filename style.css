@@ -8,7 +8,7 @@ html {
 
 .container {
   height: 100%;
-  width: 99%;
+  width: 97%;
   padding: 16px;
   box-sizing: border-box;
   display: grid;
@@ -119,17 +119,17 @@ div.header div.welcome div.right-words div.user-name {
 }
 
 .main-content {
-  display: flex;
-  grid-auto-flow: row;
+  display: grid;
+  grid-template-columns: 70% 30%;
   background-color: lightgrey;
   padding: 3%;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 50px 1fr 1fr 1fr;
-  width: 80%;
+  width: 95%;
   gap: 3%;
   grid-auto-flow: column;
 }
@@ -144,9 +144,12 @@ div.header div.welcome div.right-words div.user-name {
   display: grid;
   background-color: white;
   min-height: 100px;
-  border: 2px yellow dashed;
   border-left: 5px orange solid;
-  padding: 1% 5%;
+  padding: 1% 3%;
+}
+
+.card p {
+  color: grey;
 }
 
 .card .icons {
@@ -195,18 +198,40 @@ div.header div.welcome div.right-words div.user-name {
 }
 .right-bar div {
   background-color: white;
-  padding: 5%;
+  padding: 3%;
 }
 .right-bar p {
   margin: 1%;
   font-size: small;
 }
 .right-bar h4 {
-  font-size: medium;
+  font-size: large;
 }
 .right-bar h5 {
   font-size: x-small;
   margin: 1%;
+}
+
+div.annoucements p {
+  color: grey;
+}
+
+.trending {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+}
+
+.trending div {
+  align-self: center;
+}
+.trending img {
+  height: 2em;
+  align-self: center;
+}
+.trending .tagline {
+  color: gray;
 }
 ul,
 li {
