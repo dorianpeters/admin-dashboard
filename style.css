@@ -132,6 +132,7 @@ div.header div.welcome div.right-words div.user-name {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50px 1fr 1fr 1fr;
   width: 95%;
+  height: 95%;
   gap: 3%;
   grid-auto-flow: column;
 }
@@ -145,7 +146,7 @@ div.header div.welcome div.right-words div.user-name {
 .card {
   display: grid;
   background-color: white;
-  min-height: 100px;
+  min-height: 75px;
   border-left: 5px orange solid;
   padding: 1% 3%;
   border-radius: 10px;
@@ -153,6 +154,7 @@ div.header div.welcome div.right-words div.user-name {
 
 .card p {
   color: grey;
+  font-size: 1.8vh;
 }
 
 .card .icons {
@@ -198,6 +200,7 @@ div.header div.welcome div.right-words div.user-name {
   flex-grow: 0;
   grid-template-columns: 1fr;
   grid-template-rows: 10% 40% 10% 40%;
+  height: 90%;
 }
 .right-bar div {
   background-color: white;
@@ -205,10 +208,11 @@ div.header div.welcome div.right-words div.user-name {
 }
 .right-bar p {
   margin: 1%;
-  font-size: small;
+  font-size: 1.5vh;
 }
 .right-bar h4 {
   font-size: large;
+  padding-bottom: 10%;
 }
 .right-bar h5 {
   font-size: x-small;
@@ -232,6 +236,7 @@ div.annoucements p {
 
 .trending div {
   align-self: center;
+  padding-bottom: 0;
 }
 .trending img {
   height: 2em;
